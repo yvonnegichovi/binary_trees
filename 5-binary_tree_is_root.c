@@ -13,5 +13,9 @@ if (node == NULL)
 {
 return (0);
 }
-return (node->parent == NULL) ? (1): (0);
+if (node->parent == NULL) {
+    return (1);
+} else {
+    return (0);
+}
 }
